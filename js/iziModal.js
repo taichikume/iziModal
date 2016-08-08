@@ -166,7 +166,7 @@
 					medida = "px";
 					wClear = String(wClear).split(",")[0];
 
-				if(isNaN(parseInt(options.width))){
+				if(isNaN(options.width)){
 					if( String(options.width).indexOf("%") != -1){
 						medida = "%";
 					} else {
